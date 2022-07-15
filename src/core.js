@@ -75,6 +75,7 @@ const buildContent = async (
      *      use: to reuse the html created inside the tah
      */
     // get prev contributors in the readme
+    // Just another comment to keep github contribution streak
     let prevReadmeContributorsTemplate = templateContent.match(
         /<!--\s*readme:(?<type>[\s\S]*?)-start\s*-->(?<content>[\s\S]*?)<!--\s*readme:[\s\S]*?-end\s*-->/
     );
